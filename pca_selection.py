@@ -1,7 +1,7 @@
 # This function does the selection using principal component analysis (PCA)
 import numpy
 import pandas as pd
-import matplotlib.pyplot as plt
+import matplotlib.pyplot
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 url = "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data"
